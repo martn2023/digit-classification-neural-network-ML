@@ -1,2 +1,5 @@
 #for notebooks and observable programming
 jupyter
+
+#need this just to automatically summmon raw data instead of manually getting it from Kaggle
+scikit-learn
