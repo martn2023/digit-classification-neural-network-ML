@@ -1,10 +1,9 @@
-# I. Author's context:
+# I. Author's Context:
 - I've held leadership roles in numerous VC-backed tech startups, but they were all __business__ roles (finance, COO, product). I'm a complete beginner when it comes to __Applied ML Engineering__.
- 
 
 - An ex-Google dev showed me an industry standard ML book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron. The foundational projects are:
 
-| Ch. | Challenge                 | Tech/Model Used                | Status                |
+| CH. | CHALLENGE                 | TECH/MODEL USED                | STATUS                |
 |-----|---------------------------|--------------------------------|-----------------------|
 | 2   | Predicting housing prices  | Supervised Learning, Regression| **Published Repo**    |
 | 3   | Classifying handwritten digits | Neural Networks, Classification| **In Progress**       |
@@ -19,7 +18,6 @@
 
 # II. Project Overview:
 asdf
-
 
 # III. Screenshots (illustrative, but not comprehensive):
 Asasdfadsf
