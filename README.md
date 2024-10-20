@@ -17,7 +17,16 @@
 
 
 # II. Project Overview:
-asdf
+This project is about classifying images of handwritten numbers.
+## Jupyter Notebook #1: textbook-guided and simplified classification
+### Level 1 Complexity: "Is it a 5 or not?"
+Straight out of that [comedy show about startups](https://www.youtube.com/watch?v=ACmydtFDTGs&ab_channel=HBO) where the food-classification phone app can only see whether a meal is a hot dog or not
+
+### Level 2 Complexity: "Pick one: 5 or a 3?"
+
+## Jupyter Notebook #2: free-flowing challenge without textbook's help
+### Level 3 Complexity: "Which digit is this?"
+Can I make a tool that looks at handwritten digits (0 through 9) and correctly identify the number being written?
 
 # III. Screenshots (illustrative, but not comprehensive):
 Asasdfadsf
