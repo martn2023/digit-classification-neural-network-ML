@@ -1,5 +1,5 @@
 # I. Author's Context:
-- I've held leadership roles in numerous VC-backed tech startups, but they were all __business__ roles (finance, COO, product). After building some CRUD web apps and ETL pipelines, I'm ready to start working on __Applied ML Engineering__.
+- I've held leadership roles in numerous VC-backed tech startups, but they were all __business__ roles (finance, COO, product). After building some CRUD web apps and ETL pipelines, I'm upskilling in __Applied ML Engineering__.
 
 - An ex-Google dev showed me an industry standard ML book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron:
 
@@ -17,16 +17,15 @@
 
 
 # II. Project Overview:
-This project is about classifying images of handwritten numbers.
-## Jupyter Notebook #1: textbook-guided and simplified classification
+
 ### Level 1 Complexity: "Is it a 5 or not?"
-Straight out of that [comedy show about startups](https://www.youtube.com/watch?v=ACmydtFDTGs&ab_channel=HBO) where the food-classification phone app can only see whether a meal is a hot dog or not
+This project is about classifying images of handwritten numbers. Straight out of that [comedy show about startups](https://www.youtube.com/watch?v=ACmydtFDTGs&ab_channel=HBO) where the food-classification phone app can only see whether a meal is a hot dog or not
 
 ### Level 2 Complexity: "Pick one: 5 or a 3?"
 
-## Jupyter Notebook #2: free-flowing challenge without textbook's help
 ### Level 3 Complexity: "Which digit is this?"
-Can I make a tool that looks at handwritten digits (0 through 9) and correctly identify the number being written?
+- Can I make a tool that looks at handwritten digits (0 through 9) and correctly identify the number being written?
+- This a free-flowing exercise without textbook assistance
 
 # III. Screenshots (illustrative, but not comprehensive):
 Asasdfadsf
