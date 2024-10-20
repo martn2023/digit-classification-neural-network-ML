@@ -19,13 +19,14 @@
 # II. Project Overview:
 
 ### Level 1 Complexity: "Is it a 5 or not?"
-This project is about classifying images of handwritten numbers. Straight out of that [comedy show about startups](https://www.youtube.com/watch?v=ACmydtFDTGs&ab_channel=HBO) where the food-classification phone app can only see whether a meal is a hot dog or not
+This project is about classifying images of handwritten numbers. Straight out of that [comedy show about startups](https://www.youtube.com/watch?v=ACmydtFDTGs&ab_channel=HBO) where the food-classification phone app can only see whether a meal is a hot dog or not.
 
-### Level 2 Complexity: "Pick one: 5 or a 3?"
+### Level 2 Complexity: "5 or a 3?"
 
 ### Level 3 Complexity: "Which digit is this?"
 - Can I make a tool that looks at handwritten digits (0 through 9) and correctly identify the number being written?
 - This a free-flowing exercise without textbook assistance
+
 
 # III. Screenshots (illustrative, but not comprehensive):
 Asasdfadsf
