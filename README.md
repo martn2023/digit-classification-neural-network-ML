@@ -1,5 +1,5 @@
 # I. Author's Context:
-- I've held leadership roles in numerous VC-backed tech startups, but they were all __business__ roles (finance, COO, product). I'm a complete beginner when it comes to __Applied ML Engineering__.
+- I've held leadership roles in numerous VC-backed tech startups, but they were all __business__ roles (finance, COO, product). After building some CRUD web apps and ETL pipelines, I'm ready to start working on __Applied ML Engineering__.
 
 - An ex-Google dev showed me an industry standard ML book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron:
 
@@ -30,9 +30,12 @@ MINST offers 70K images, but these are pre-split into 60K training and 10K testi
 I wanted manually browse Kaggle to ensure I had the latest version, and then manually download. Ended up pulling a specific data set name in the textbook to avoid inconsistencies and leverage automation.
 
 
-# V. Learnings:
+# V. Major Learnings:
 >**Kaggle:**<br>
 Kaggle the LeetCode of ML, web site that has data sets and challenges you can work on, either untimed or in timed competitions. 
+
+>**asdf:**<br>
+asdf
 
 
 # VI. Potential improvements:
