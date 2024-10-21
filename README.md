@@ -3,17 +3,17 @@
 
 - An ex-Google dev showed me an industry standard ML book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron:
 
-| CHAPTER | FOUNDATIONAL PROJECT         | TECH/MODEL USED                   | STATUS                         |
-|---------|------------------------------|-----------------------------------|--------------------------------|
-| 2       | Predicting housing prices    | Supervised Learning, Regression   | **Completed, maybe published** |
-| 3       | Handwritten digits           | Image classification              | **This project**               |
-| 4       | Training models              | Supervised Learning               | Not Started                    |
-| 5       | Classifying data points      | Support Vector Machines (SVM)     | Not Started                    |
-| 6       | Tree-based models            | Decision Trees, Random Forests    | Not Started                    |
-| 7       | Combining models             | Ensemble Learning                 | Not Started                    |
-| 8       | Reducing dataset complexity  | Dimensionality Reduction          | Not Started                    |
-| 9       | Grouping similar data points | Clustering, Unsupervised Learning | Not Started                    |
-| 10      | Building neural networks     | Neural Networks, Deep Learning    | Not Started                    |
+| CHAPTER | FOUNDATIONAL PROJECT         | TECH/MODEL USED                   | STATUS                  |
+|---------|------------------------------|-----------------------------------|-------------------------|
+| 2       | Predicting housing prices    | Supervised Learning, Regression   | **Completed/published** |
+| 3       | Handwritten digits           | Image classification              | ** *This project* **    |
+| 4       | Training models              | Supervised Learning               | Not Started             |
+| 5       | Classifying data points      | Support Vector Machines (SVM)     | Not Started             |
+| 6       | Tree-based models            | Decision Trees, Random Forests    | Not Started             |
+| 7       | Combining models             | Ensemble Learning                 | Not Started             |
+| 8       | Reducing dataset complexity  | Dimensionality Reduction          | Not Started             |
+| 9       | Grouping similar data points | Clustering, Unsupervised Learning | Not Started             |
+| 10      | Building neural networks     | Neural Networks, Deep Learning    | Not Started             |
 
 
 # II. Project Overview:
