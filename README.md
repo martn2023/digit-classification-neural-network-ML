@@ -6,7 +6,7 @@
 | CHAPTER | FOUNDATIONAL PROJECT         | TECH/MODEL USED                   | STATUS                  |
 |---------|------------------------------|-----------------------------------|-------------------------|
 | 2       | Predicting housing prices    | Supervised Learning, Regression   | **Completed/published** |
-| 3       | Handwritten digits           | Image classification              | ** *This project* **    |
+| 3       | Handwritten digits           | Image classification              | ** **This project** **  |
 | 4       | Training models              | Supervised Learning               | Not Started             |
 | 5       | Classifying data points      | Support Vector Machines (SVM)     | Not Started             |
 | 6       | Tree-based models            | Decision Trees, Random Forests    | Not Started             |
