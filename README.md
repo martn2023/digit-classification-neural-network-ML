@@ -29,7 +29,6 @@ This project is about classifying images of handwritten numbers. Straight out of
 
 
 # III. Screenshots (illustrative, but not comprehensive):
-Asasdfadsf
 
 # IV. Challenges, Tradeoffs and Considerations:
 ### Re-combine raw data?
@@ -46,8 +45,8 @@ I wanted manually browse Kaggle to ensure I had the latest version, and then man
 >**Kaggle:**<br>
 Kaggle the LeetCode of ML, web site that has data sets and challenges you can work on, either untimed or in timed competitions. 
 
->**asdf:**<br>
-asdf
+>**Precision vs. Recall:**<br>
+Understanding what they are, and the natural tension between the 2 that forces the data scientist to make a tradeoff.
 
 
 # VI. Potential improvements:
