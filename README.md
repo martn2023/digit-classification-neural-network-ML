@@ -14,7 +14,8 @@
 | 8       | Reducing dataset complexity  | Dimensionality Reduction          | Not Started             |
 | 9       | Grouping similar data points | Clustering, Unsupervised Learning | Not Started             |
 | 10      | Building neural networks     | Neural Networks, Deep Learning    | Not Started             |
-
+<br>
+<br>
 # II. How to use this:
 Screenshots below are illustrative, not comprehensive. __For a deeper dive into the analysis, see highlighted Jupyter notebook__
 ![img_1.png](readme_images/jupyter_notebook_location.png)
@@ -68,12 +69,12 @@ I wanted manually browse Kaggle to ensure I had the latest version, and then man
 ### Kaggle
 Kaggle the LeetCode of ML, web site that has data sets and challenges you can work on, either untimed or in timed competitions. 
 
-### Precision vs. Recall:
+### Precision vs. Recall
 Understanding what they are, and the natural tension between the 2 that forces the data scientist to make a tradeoff.
 
 # VI. Potential improvements:
 The purpose of this exercise was to do a quick proof-of-concept on classification. That being said, here are some ideas.
-### Product/UI:
+### Product/UI
 - The image-reading was thrown off by the fact that not all numbers were centered evenly or rotated. We could create 4 derivative images where we shift each number up/down/left/right 1 pixel, insert those 4 newly-formed images into the training data, and work from there
 - This was image classification. I'd be interested in something like spam detection (covered 3 chapters later) 
 
