@@ -15,19 +15,27 @@
 | 9       | Grouping similar data points | Clustering, Unsupervised Learning | Not Started             |
 | 10      | Building neural networks     | Neural Networks, Deep Learning    | Not Started             |
 
- 
-# II. Project Overview:
+# II. How to use this:
+Screenshots below are illustrative, not comprehensive. __For a deeper dive into the analysis, see highlighted Jupyter notebook__
+![img_1.png](readme_images/jupyter_notebook_location.png)
 
-### Level 1 Complexity: "Is it a 5 or not?"
-Screenshots below are illustrative, not comprehensive. __For a deeper dive into the analysis, __
-
+# III. Project Overview:
+### Stage 1: "Is it a 5 or not?"
 This project is about classifying images of handwritten numbers. Straight out of that [comedy show about startups](https://www.youtube.com/watch?v=ACmydtFDTGs&ab_channel=HBO) where the food-classification phone app can only see whether a meal is a hot dog or not.
-
-![img.png](img.png)
-
-- Can I make a tool that looks at handwritten digits (0 through 9) and correctly identify the number being written?
-
-# III. Screenshots (illustrative, but not comprehensive):
+![img.png](readme_images/5_not5_confusion_matrix.png)
+<br>
+<br>
+### Stage 2: How do I trade off between precision(quality) and recall(quantity)?
+![img.png](readme_images/precision_vs_recall.png)
+<br>
+<br>
+### Stage 3: Should I use SGD or Random Forest?
+![img.png](roc_sgd_vs_random_forest.png)
+<br>
+<br>
+![img.png](readme_images/random_forest_superior.png)
+<br>
+<br>
 
 # IV. Challenges, Tradeoffs and Considerations:
 ### Re-combine raw data?
