@@ -15,7 +15,7 @@
 | 9       | Grouping similar data points | Clustering, Unsupervised Learning | Not Started             |
 | 10      | Building neural networks     | Neural Networks, Deep Learning    | Not Started             |
 
-
+ 
 # II. Project Overview:
 
 ### Level 1 Complexity: "Is it a 5 or not?"
