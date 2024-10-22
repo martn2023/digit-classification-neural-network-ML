@@ -25,12 +25,15 @@ This project is about classifying images of handwritten numbers. Straight out of
 ![img.png](readme_images/5_not5_confusion_matrix.png)
 <br>
 <br>
+<br>
 ### Stage 2: How do I trade off between precision(quality) and recall(quantity)?
 ![img.png](readme_images/precision_vs_recall.png)
 <br>
 <br>
+<br>
 ### Stage 3: Should I use SGD or Random Forest?
 ![img.png](roc_sgd_vs_random_forest.png)
+<br>
 <br>
 <br>
 ![img.png](readme_images/random_forest_superior.png)
@@ -43,12 +46,13 @@ This project is about classifying images of handwritten numbers. Straight out of
 ![img_1.png](readme_images/error_grid_random_forest.png)
 <br>
 <br>
+<br>
 ### Stage 5: Final model hits goal of 97% accuracy, precision, and recall!
 Applied generalized learnings from training on the first 60,000 images onto the testing data (remaining 10,000 images)<br>
 ![img.png](readme_images/final_scores.png)
 <br>
 <br>
-
+<br>
 # IV. Challenges, Tradeoffs and Considerations:
 ### Re-combine raw data?
 MINST offers 70K images, but these are pre-split into 60K training and 10K testing. My kneejerk reaction was to combine these 2 and re-shuffle them to "simulate the real world", where there's no reasonable expectation of getting data curated for you at the start. I reluctantly withdrew my objection because doing would increase inconsistencies from a mountain of existing literature on this table-stakes exercise, and I didn't want to get stuck trying to figure out if any deltas were due to error vs the fact I recombined test data at the start.
@@ -61,18 +65,17 @@ I wanted manually browse Kaggle to ensure I had the latest version, and then man
 
 
 # V. Major Learnings:
->**Kaggle:**<br>
+### Kaggle
 Kaggle the LeetCode of ML, web site that has data sets and challenges you can work on, either untimed or in timed competitions. 
 
->**Precision vs. Recall:**<br>
+### Precision vs. Recall:
 Understanding what they are, and the natural tension between the 2 that forces the data scientist to make a tradeoff.
 
 # VI. Potential improvements:
 The purpose of this exercise was to do a quick proof-of-concept on classification. That being said, here are some ideas.
->**Product/UI:**<br>
+### Product/UI:
 - The image-reading was thrown off by the fact that not all numbers were centered evenly or rotated. We could create 4 derivative images where we shift each number up/down/left/right 1 pixel, insert those 4 newly-formed images into the training data, and work from there
 - This was image classification. I'd be interested in something like spam detection (covered 3 chapters later) 
 
-
->**Tools**<br>
+### Tools
 - Will step up to Seaborn for data visuzalization after getting more comfortable with Matplotlib
