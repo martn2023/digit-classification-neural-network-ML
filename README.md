@@ -33,7 +33,7 @@ This project is about classifying images of handwritten numbers. Straight out of
 <br>
 <br>
 #### Stage 3: Should I use SGD or Random Forest?
-![img.png](roc_sgd_vs_random_forest.png)
+![img.png](readme_images/roc_sgd_vs_random_forest.png)
 <br>
 <br>
 <br>
