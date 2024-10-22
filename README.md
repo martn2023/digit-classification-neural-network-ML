@@ -21,18 +21,18 @@ Screenshots below are illustrative, not comprehensive. __For a deeper dive into 
 ![img_1.png](readme_images/jupyter_notebook_location.png)
 
 # III. Project Overview:
-### Stage 1: "Is it a 5 or not?"
+#### Stage 1: "Is it a 5 or not?"
 This project is about classifying images of handwritten numbers. Straight out of that [comedy show about startups](https://www.youtube.com/watch?v=ACmydtFDTGs&ab_channel=HBO) where the food-classification phone app can only see whether a meal is a hot dog or not.
 ![img.png](readme_images/5_not5_confusion_matrix.png)
 <br>
 <br>
 <br>
-### Stage 2: How do I trade off between precision(quality) and recall(quantity)?
+#### Stage 2: How do I trade off between precision(quality) and recall(quantity)?
 ![img.png](readme_images/precision_vs_recall.png)
 <br>
 <br>
 <br>
-### Stage 3: Should I use SGD or Random Forest?
+#### Stage 3: Should I use SGD or Random Forest?
 ![img.png](roc_sgd_vs_random_forest.png)
 <br>
 <br>
@@ -40,7 +40,7 @@ This project is about classifying images of handwritten numbers. Straight out of
 ![img.png](readme_images/random_forest_superior.png)
 <br>
 <br>
-### Stage 4: Evaluating Random Forest model<br>
+#### Stage 4: Evaluating Random Forest model<br>
 1st chart shows mostly accurate classification...<br>
 ![img.png](readme_images/all_10_classes_random_forest_confusion_matrix.png)
 <br>
@@ -50,35 +50,35 @@ This project is about classifying images of handwritten numbers. Straight out of
 <br>
 <br>
 <br>
-### Stage 5: Final model hits goal of 97% accuracy, precision, and recall!
+#### Stage 5: Final model hits goal of 97% accuracy, precision, and recall!
 Applied generalized learnings from training on the first 60,000 images onto the testing data (remaining 10,000 images)<br>
 ![img.png](readme_images/final_scores.png)
 <br>
 <br>
 <br>
 # IV. Challenges, Tradeoffs and Considerations:
-### Re-combine raw data?
+#### Re-combine raw data?
 MINST offers 70K images, but these are pre-split into 60K training and 10K testing. My kneejerk reaction was to combine these 2 and re-shuffle them to "simulate the real world", where there's no reasonable expectation of getting data curated for you at the start. I reluctantly withdrew my objection because doing would increase inconsistencies from a mountain of existing literature on this table-stakes exercise, and I didn't want to get stuck trying to figure out if any deltas were due to error vs the fact I recombined test data at the start.
 
-### Gradient Descent strategy?
+#### Gradient Descent strategy?
 The most accurate way to drive a car is to memorize a 300-mile route in your head (full bath gradient descent). But in real life, it might be better to just make decisions based on what you see 400 feet ahead of you (stochastic gradient descent). It'll be less accurate, but you won't be limited memory capacity and you'll know if you're going in the generally correct direction after a few moves.
 
-### Data extraction method
+#### Data extraction method
 I wanted manually browse Kaggle to ensure I had the latest version, and then manually download. Ended up pulling a specific data set name in the textbook to avoid inconsistencies and leverage automation.
 
 
 # V. Major Learnings:
-### Kaggle
+#### Kaggle
 Kaggle the LeetCode of ML, web site that has data sets and challenges you can work on, either untimed or in timed competitions. 
 
-### Precision vs. Recall
+#### Precision vs. Recall
 Understanding what they are, and the natural tension between the 2 that forces the data scientist to make a tradeoff.
 
 # VI. Potential improvements:
 The purpose of this exercise was to do a quick proof-of-concept on classification. That being said, here are some ideas.
-### Product/UI
+#### Product/UI
 - The image-reading was thrown off by the fact that not all numbers were centered evenly or rotated. We could create 4 derivative images where we shift each number up/down/left/right 1 pixel, insert those 4 newly-formed images into the training data, and work from there
 - This was image classification. I'd be interested in something like spam detection (covered 3 chapters later) 
 
-### Tools
+#### Tools
 - Will step up to Seaborn for data visuzalization after getting more comfortable with Matplotlib
