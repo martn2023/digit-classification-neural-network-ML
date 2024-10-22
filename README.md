@@ -40,10 +40,12 @@ This project is about classifying images of handwritten numbers. Straight out of
 ![img.png](readme_images/random_forest_superior.png)
 <br>
 <br>
-### Stage 4: Evaluating Random Forest model
+### Stage 4: Evaluating Random Forest model<br>
+1st chart shows mostly accurate classification...<br>
 ![img.png](readme_images/all_10_classes_random_forest_confusion_matrix.png)
 <br>
 <br>
+...but when we zoom in, it shows that 8's are causing the most confusion<br>
 ![img_1.png](readme_images/error_grid_random_forest.png)
 <br>
 <br>
