@@ -19,7 +19,9 @@
 # II. How to use this:
 Screenshots below are illustrative, not comprehensive. __For a deeper dive into the analysis, see highlighted Jupyter notebook__.
 
-![img.png](img.png)
+![](readme_images/jupyter_notebook_location.png)
+<br>
+<br>
 
 # III. Project Overview:
 #### Stage 1: "Is it a 5 or not?"
