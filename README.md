@@ -19,14 +19,13 @@
 # II. Project Overview:
 
 ### Level 1 Complexity: "Is it a 5 or not?"
+Screenshots below are illustrative, not comprehensive. __For a deeper dive into the analysis, __
+
 This project is about classifying images of handwritten numbers. Straight out of that [comedy show about startups](https://www.youtube.com/watch?v=ACmydtFDTGs&ab_channel=HBO) where the food-classification phone app can only see whether a meal is a hot dog or not.
 
-### Level 2 Complexity: "5 or a 3?"
+![img.png](img.png)
 
-### Level 3 Complexity: "Which digit is this?"
 - Can I make a tool that looks at handwritten digits (0 through 9) and correctly identify the number being written?
-- This a free-flowing exercise without textbook assistance
-
 
 # III. Screenshots (illustrative, but not comprehensive):
 
@@ -48,13 +47,12 @@ Kaggle the LeetCode of ML, web site that has data sets and challenges you can wo
 >**Precision vs. Recall:**<br>
 Understanding what they are, and the natural tension between the 2 that forces the data scientist to make a tradeoff.
 
-
 # VI. Potential improvements:
+The purpose of this exercise was to do a quick proof-of-concept on classification. That being said, here are some ideas.
 >**Product/UI:**<br>
-- The 
+- The image-reading was thrown off by the fact that not all numbers were centered evenly or rotated. We could create 4 derivative images where we shift each number up/down/left/right 1 pixel, insert those 4 newly-formed images into the training data, and work from there
+- This was image classification. I'd be interested in something like spam detection (covered 3 chapters later) 
 
->**Engineering:**<br>
-- Func
 
 >**Tools**<br>
-- BigQ
+- Will step up to Seaborn for data visuzalization after getting more comfortable with Matplotlib
