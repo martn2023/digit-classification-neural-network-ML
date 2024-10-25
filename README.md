@@ -1,8 +1,9 @@
 # I. Author's Context:
-- I've held leadership roles in numerous VC-backed tech startups, but:
+I've held leadership roles in numerous VC-backed tech startups, but:
   - they were all __business__ roles (finance, COO, product)
   - I have no CS degree
   - have never undergone a coding bootcamp
+  
   
 After building some CRUD web apps and ETL pipelines, I'm upskilling in __Applied ML Engineering__.
 
@@ -21,6 +22,7 @@ After building some CRUD web apps and ETL pipelines, I'm upskilling in __Applied
 | 10      | Building neural networks     | Neural Networks, Deep Learning    | Not Started             |
 <br>
 <br>
+
 # II. How to use this:
 Screenshots below are illustrative, not comprehensive. __For a deeper dive into the analysis, see highlighted Jupyter notebook__.
 
