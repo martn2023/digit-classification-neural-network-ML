@@ -74,7 +74,7 @@ MINST offers 70K images, but these are pre-split into 60K training and 10K testi
 The most accurate way to drive a car is to memorize a 300-mile route in your head (full bath gradient descent). But in real life, it might be better to just make decisions based on what you see 400 feet ahead of you (stochastic gradient descent). It'll be less accurate, but you won't be limited memory capacity and you'll know if you're going in the generally correct direction after a few moves.
 
 #### Data extraction method
-I wanted manually browse Kaggle to ensure I had the latest version, and then manually download. Ended up pulling a specific data set name in the textbook to avoid inconsistencies and leverage automation.
+I wanted to manually browse Kaggle to ensure I had the latest version, and then manually download. Ended up pulling a specific data set name in the textbook to avoid inconsistencies and leverage automation.
 
 
 # V. Major Learnings:
